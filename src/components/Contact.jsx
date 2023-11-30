@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
+import { emailServiceId, templateId } from '../constants';
 
 const Contact = () => {
   const formRef = useRef();
@@ -29,8 +30,8 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'service_ssvr2vr', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        emailServiceId, // paste your ServiceID here (you'll get one when your service is created).
+        templateId, // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
           to_name: 'Yan David', // put your name here.

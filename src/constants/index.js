@@ -17,19 +17,15 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  holguin_univeristy,
   freelance,
   agiledreamteam,
-  otnh
+  otnh,
+  qualud_logo,
+  findacarapp,
+  weatherpp,
+  _4wtrade,
+  movie_searcher
 } from '../assets';
 
 export const navLinks = [
@@ -129,7 +125,7 @@ const experiences = [
   {
     title: 'Software Developer',
     company_name: 'University of Holguin',
-    icon: coverhunt,
+    icon: holguin_univeristy,
     iconBg: '#333333',
     date: 'Oct, 2019 - Jul, 2020',
   },
@@ -164,14 +160,14 @@ const experiences = [
   {
     title: 'Mobile Developer',
     company_name: 'Qualud',
-    icon: agiledreamteam,
+    icon: qualud_logo,
     iconBg: '#333333',
     date: 'Jul, 2022 - Nov, 2022',
   },
   {
     title: 'Frontend Developer',
     company_name: 'Vixidev',
-    icon: agiledreamteam,
+    icon: freelance,
     iconBg: '#333333',
     date: 'Mar, 2023 - Nov, 2023',
   },
@@ -180,31 +176,31 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Find a car app',
+    description: "It's a Ionic-Angular mobile app for diverse transportation needs, with a NestJs backend.",
     tags: [
       {
-        name: 'react',
+        name: 'ionic',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'angular',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'graphql',
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: findacarapp,
+    repo: 'https://github.com/ydgcdeveloper/findacar-app',
+    demo: null,
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Weather App',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A web app to retrieve global weather information by entering or selecting city names on a map.',
     tags: [
       {
         name: 'react',
@@ -215,47 +211,47 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: weatherpp,
+    repo: 'https://github.com/ydgcdeveloper/weather-app-react',
+    demo: 'https://weather-app-react-ydgcdeveloper.netlify.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Four we trade',
+    description: 'Track, invest, and manage crypto assets with a landing page, dashboard, and administrative back office.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'symfony',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'bootstrap',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'postgresql',
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: _4wtrade,
+    repo: 'https://github.com/ydgcdeveloper/4wtrade',
+    demo: null,
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Movie Search',
+    description: "A movie search engine by title",
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'restapi',
         color: 'green-text-gradient',
       },
       {
@@ -263,33 +259,36 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: movie_searcher,
+    repo: 'https://github.com/ydgcdeveloper/search-movie-react',
+    demo: 'https://search-movie-react-ydgcdeveloper.netlify.app/',
   },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  // {
+  //   id: 'project-5',
+  //   name: 'Nyeusi Fest Site',
+  //   description:
+  //     'This is a demo concert website for a music festival called Nyeusi.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: nyeusi,
+  //   repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+  //   demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+  // },
 ];
 
-export { services, technologies, experiences, projects };
+const emailServiceId = 'service_ssvr2vr';
+const templateId = 'template_i5xxwkz';
+
+export { services, technologies, experiences, projects, emailServiceId, templateId };

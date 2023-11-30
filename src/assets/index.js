@@ -38,21 +38,18 @@ import graphql from "./tech/graphql.png";
 import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
 
-import coverhunt from "./company/universidad_de_holgun_logo.jpg";
-import dcc from "./company/dcc.png";
-import kelhel from "./company/kelhel.png";
-import microverse from "./company/microverse.png";
+import holguin_univeristy from "./company/universidad_de_holgun_logo.jpg";
 
-import komikult from "./projects/komikult.png";
-import leaderboard from "./projects/leaderboard.png";
-import math from "./projects/math-magicians.png";
-import movie from "./projects/movie-metro.png";
-import nyeusi from "./projects/nyeusi.png";
-import space from "./projects/space-hub.png";
+import findacarapp from "./projects/findacarapp.jpg";
+import weatherpp from "./projects/weatherpp.png";
+import _4wtrade from "./projects/4wtrade.png";
+import movie_searcher from "./projects/movie_searcher.png";
+
 
 import freelance from "./company/freelance.png";
 import agiledreamteam from "./company/agiledreamteam_logo.jpg";
 import otnh from "./company/otnh_logo.jpg";
+import qualud_logo from "./company/qualud_logo.jpg";
 
 export {
   bwmap,
@@ -90,17 +87,13 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  holguin_univeristy,
   freelance,
   agiledreamteam,
-  otnh
+  otnh,
+  qualud_logo,
+  findacarapp,
+  weatherpp,
+  _4wtrade,
+  movie_searcher
 };

@@ -20,18 +20,18 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-          <img
+          {/* <img
             src={logo} // your logo comes here
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
-          />
+          /> */}
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
           <img
             src={logotext}
             alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
+            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] object-contain rounded-2xl"
           />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">

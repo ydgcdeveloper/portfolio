@@ -139,6 +139,10 @@
   transform: translateZ(0);
 }
 
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

@@ -27,6 +27,9 @@ import {
   dcc,
   kelhel,
   microverse,
+  freelance,
+  agiledreamteam,
+  otnh
 } from '../assets';
 
 export const navLinks = [
@@ -58,7 +61,7 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Mobile Developer',
     icon: prototyping,
   },
 ];
@@ -96,10 +99,10 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
   {
     name: 'graphql',
     icon: graphql,
@@ -116,40 +119,61 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Software Developer',
+    company_name: 'University of Holguin',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Oct, 2019 - Jul, 2020',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Back End Developer',
+    company_name: 'Freelancer',
+    icon: freelance,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jul, 2020 - Jul, 2020',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Backend Developer',
+    company_name: 'Freelancer',
+    icon: freelance,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Aug, 2021 - Sep, 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Backend Developer',
+    company_name: 'Agile Dream Team',
+    icon: agiledreamteam,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Feb, 2022 - May, 2022',
+  },
+  {
+    title: 'Web Master',
+    company_name: 'Oficina Territorial de Normalizacion Holguin',
+    icon: otnh,
+    iconBg: '#333333',
+    date: 'Sep, 2020 - Jul, 2022',
+  },
+  {
+    title: 'Mobile Developer',
+    company_name: 'Qualud',
+    icon: agiledreamteam,
+    iconBg: '#333333',
+    date: 'Jul, 2022 - Nov, 2022',
+  },
+  {
+    title: 'Frontend Developer',
+    company_name: 'Vixidev',
+    icon: agiledreamteam,
+    iconBg: '#333333',
+    date: 'Mar, 2023 - Nov, 2023',
   },
 ];
 

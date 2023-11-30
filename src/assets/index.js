@@ -6,7 +6,7 @@ import worldmap from "./backgrounds/world-map.png";
 import logo from "./logo/logo-black.png";
 import logotext from "./logo/logo.png";
 
-import shaq from "./personal/yan.png";
+import yan from "./personal/yan.png";
 
 import backend from "./icons/backend.png";
 import ux from "./icons/ux.png";
@@ -58,7 +58,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  yan,
   backend,
   ux,
   frontend,

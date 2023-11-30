@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { shaq, bwmap, worldmap } from "../assets";
+import { yan, bwmap, worldmap } from "../assets";
 
 const Hero = () => {
   return (
@@ -94,8 +94,8 @@ const Hero = () => {
             className="absolute bottom-0 ml-[30vw] 
             lg:ml-[62vw] md:ml-[50vw] xmd:ml-[50vw] 2xl:ml-[71vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
+            src={yan}
+            alt="yandavid"
           />
         </div>
       </section>

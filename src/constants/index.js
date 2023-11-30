@@ -263,29 +263,6 @@ const projects = [
     repo: 'https://github.com/ydgcdeveloper/search-movie-react',
     demo: 'https://search-movie-react-ydgcdeveloper.netlify.app/',
   },
-  // {
-  //   id: 'project-5',
-  //   name: 'Nyeusi Fest Site',
-  //   description:
-  //     'This is a demo concert website for a music festival called Nyeusi.',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: nyeusi,
-  //   repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-  //   demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  // },
 ];
 
 const emailServiceId = 'service_ssvr2vr';
